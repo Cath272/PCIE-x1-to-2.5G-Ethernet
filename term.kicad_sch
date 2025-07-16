@@ -1,0 +1,76 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "adf837af-9a0c-43d4-8154-83ba1b65c12e")
+	(paper "A4")
+	(title_block
+		(title "PCIexpress_x1_low")
+		(company "Author: Luca Anastasio")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 143.51 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01793114-c2d6-44ec-9955-eaa9a471a1d2")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 123.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac46ae60-18dc-42ee-8ae1-5594023ee9e8")
+	)
+	(hierarchical_label "IN-"
+		(shape input)
+		(at 123.19 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a329948-473e-4f5b-bbb6-ce520ae70111")
+	)
+	(hierarchical_label "OUT+"
+		(shape output)
+		(at 143.51 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29a2b000-8dc8-44a3-ad75-ab38cdc0c030")
+	)
+	(hierarchical_label "IN+"
+		(shape input)
+		(at 148.59 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94f9ac79-848c-48be-a8bf-2ef302a7fe78")
+	)
+	(hierarchical_label "OUT-"
+		(shape output)
+		(at 118.11 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d18d180a-cd24-4b9f-9c42-ce306d2ec0f3")
+	)
+)
